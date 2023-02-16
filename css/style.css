@@ -1,0 +1,55 @@
+body {
+    font-family: "Jua";
+    padding: 25px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    width: 150px;
+    text-align: center;
+    border: 1.5px solid #ffd4d4;
+    vertical-align: top; /* 위 */
+    vertical-align: bottom; /* 아래 */
+    vertical-align: middle; /* 가운데 */
+  }
+  th {
+    height: 50px;
+    background-color: #ffd4d4;
+    border: 1.5px solid #ffffff;
+  }
+  td {
+    height: 195px;
+  }
+  .title {
+    background-color: #ffffe8;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .summary {
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  a:link {
+    color: #000000;
+  }
+  a:visited{
+    color: #000000;
+  }
+  a:hover {
+    color: #aacb73;
+  }
+  a{
+    text-decoration: none;
+  }
+  button{
+    border: 1.5px solid #AACB73;
+    background-color: #FFFFE8;
+    color: #000000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Jua";
+  }
